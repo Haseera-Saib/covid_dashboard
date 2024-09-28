@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(layout='wide')
 
 st.markdown("<u><h2 style='text-align: center;'>COVID-19 Data Insights for India</h2></u>", unsafe_allow_html=True)
-data=pd.read_csv('/workspaces/covid_dashboard/Covid Dashboard_data1.csv')
+data=pd.read_csv('Covid Dashboard_data1.csv')
 #with st.expander('show more'):
     #st.write(data)
 
